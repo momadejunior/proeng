@@ -2,6 +2,8 @@ import HomePage from "../pages/home";
 import PortfolioService from "../pages/portfolio";
 import Services from "../pages/services";
 import Contact from "../pages/contact";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
