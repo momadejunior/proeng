@@ -5,6 +5,7 @@ import Contact from "../pages/contact";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Pushbar from "./pushbar";
 
 
 
@@ -12,6 +13,7 @@ export default function Navbar() {
     return (
    
         <Router>
+            <Pushbar />
             <nav className="navbar">
                 <div className="navbar-logo">
                     <Link to="/"><img src="logo.png" alt="Logo" className="logo" /></Link>
@@ -30,6 +32,7 @@ export default function Navbar() {
                     <ul className="widgets">
                         <li><button className="language-switch">EN</button></li>
                         <li><button className="search-btn">Search</button></li>
+                        
                     </ul>
                 </div>
             </nav>

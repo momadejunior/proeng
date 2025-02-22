@@ -1,0 +1,34 @@
+.pushbar-menu {
+    width: 250px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .pushbar-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pushbar-menu li {
+    margin: 15px 0;
+  }
+  
+  .pushbar-menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-button {
+    padding: 10px 15px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
