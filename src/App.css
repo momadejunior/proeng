@@ -16,6 +16,10 @@
   margin: 0 auto;
 }
 
+.col-description{
+  width: 50%;
+}
+
 .arrows-icons {
 	width: 28px;
 }

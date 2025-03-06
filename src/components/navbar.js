@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
    
         <Router>
-           {/* <Pushbar />*/}
+            {/*<Pushbar />*/}
             <nav className="navbar">
                 <div className="navbar-logo">
                     <Link to="/"><img src="logo.png" alt="Logo" className="logo" /></Link>
