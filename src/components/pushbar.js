@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Pushbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Pushbar = () => {
         onClick={togglePushbar}
         className="p-3 bg-blue-500 text-white rounded-lg"
       >
-        Open Pushbar
+        <img src="menu.png" alt="menu-open" className="menu-hamburguer"/>
       </button>
 
       {/* Overlay */}
@@ -40,8 +41,22 @@ const Pushbar = () => {
         >
           <X size={24} />
         </button>
-        <h2 className="text-lg font-semibold">Pushbar Content</h2>
-        <p className="text-gray-500">This is a simple pushbar from scratch!</p>
+              <div className="mobile-menu">
+                    <ul className="nav-mobile">
+                        <li><Link to="/sobre">Sobre Nós</Link></li>
+                        <li><Link to="/servicos">Nossos Serviços</Link></li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
+                        <li><Link to="/contactos">Contactos</Link></li>
+                    </ul>
+
+                    <div className="navbar-widgets">
+                    <ul className="widgets">
+                        <li><button className="language-switch">EN</button></li>
+                        <li><button className="search-btn">Search</button></li>
+                        
+                    </ul>
+                </div>
+                </div>
       </motion.div>
     </div>
   );

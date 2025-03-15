@@ -13,32 +13,30 @@ export default function Services() {
 
           <div className='col-services'>
             <div className="projects">
-              <div><h3>Projecto</h3>
-              Elaboração e planificação
-de projectos mecânicos e
-caldeiraria, dimensionamento
-e cálculo estrutural
-                </div>
-                
-                <div>
-                  
+
+              <div><h3>PROJECTO</h3>
+                Elaboração e planificação
+                de projectos mecânicos e
+                caldeiraria, dimensionamento
+                e cálculo estrutural
+              </div>
+
+              <div>
                 <h3>MANUTENÇÃO</h3>
                 Manutenção de máquinas
-industriais, estruturas metáli cas,
-caldeiraria, equipamentos
-hidráulicos e pneumáticos.</div>
+                industriais, estruturas metáli cas,
+                caldeiraria, equipamentos
+                hidráulicos e pneumáticos.
+              </div>
             </div>
+
             <div className="projects">
-              <div><h3>Projecto</h3>
-              Construções metálicas,
-peças e conjuntos
-mecânicos.</div>
-                
-                <div><h3>FABRICAÇÃO</h3>
-                Descrição 001<br/>
-                Descrição 002<br/>
-                Descrição 003<br/>
-                </div>
+
+              <div><h3>FABRICAÇÃO</h3>
+                Construções metálicas,
+                peças e conjuntos
+                mecânicos.
+              </div>
             </div>
           </div>
 

@@ -102,7 +102,7 @@ export default function PortfolioService() {
         }
     ];
 
-    console.log(projects)
+
 
     return (
         <div className="portfolio-container">
@@ -142,7 +142,7 @@ export default function PortfolioService() {
                         </div>
 
                         <div className="small-description">
-                            <ul>
+                            <ul className="ul-list-category">
                                 <li><span>Ano:</span> {item.year}</li>
                                 <li><span>Cliente:</span> {item.client}</li>
                                 <li><span>Localização:</span> {item.location}</li>
