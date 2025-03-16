@@ -49,7 +49,7 @@ export default function Navbar() {
             </nav>
 
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<PortfolioService />} />
                 <Route path="/sobre" element={<HomePage />} />
                 <Route path="/servicos" element={<Services />} />
                 <Route path="/portfolio" element={<PortfolioService />} />
