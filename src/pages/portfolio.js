@@ -113,26 +113,7 @@ export default function PortfolioService() {
     ];
 
 
-      useEffect(()=>{
-          // Initialize ScrollReveal
-          ScrollReveal().reveal('.portfolio-container', {
-            distance: '50px',
-            duration: 1000,
-            delay: 200,
-            opacity: 0,
-            reset: true
-          });
       
-          ScrollReveal().reveal('.page', {
-            delay: 300,
-            distance: '100px',
-            duration: 1500,
-            opacity: 0,
-            reset: true
-          });
-      
-  
-      },[])
 
 
 
@@ -212,8 +193,6 @@ export default function PortfolioService() {
 
                                 ))}
                             </swiper-container>
-
-
                         </div>
                     </div>
                 ))}
