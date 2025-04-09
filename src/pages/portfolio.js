@@ -2,7 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useEffect, useRef } from "react";
-import ScrollReveal from "scrollreveal";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function PortfolioService() {
     const sliderRef = useRef(null);
@@ -113,8 +115,16 @@ export default function PortfolioService() {
     ];
 
 
+    useEffect(() => {
+        AOS.init({
+          duration: 800, // optional: animation duration
+          once: true, // optional: whether animation happens only once
+        });
       
-
+        // Refresh AOS to detect any dynamic content
+        AOS.refresh();
+      }, []);
+      
 
 
     return (
@@ -154,12 +164,12 @@ export default function PortfolioService() {
                 {projects.map((item, index) => (
                     <div key={index} className="page headline">
                         <div className="portfolio-page">
-                            <div>
+                            <div data-aos="fade-left">
                                 <p className="tag-project">{item.category}</p>
                                 <h2>{item.name}</h2>
                             </div>
 
-                            <div className="small-description">
+                            <div className="small-description" data-aos="fade-right">
                                 <ul className="ul-list-category">
                                     <li>
                                         <span>Ano:</span> {item.year}
@@ -176,7 +186,7 @@ export default function PortfolioService() {
 
                         <hr className="hr" />
 
-                        <div className="main description-project">
+                        <div className="main description-project" data-aos="fade-up">
                             <p className="col-description">{item.description}</p>
                         </div>
 
@@ -184,7 +194,7 @@ export default function PortfolioService() {
 
                         <div className="main">
 
-                            <swiper-container >
+                            <swiper-container data-aos="zoom-in">
                                 {item.images.map((image, index) => (
 
                                     <swiper-slide key={index}>
@@ -193,6 +203,8 @@ export default function PortfolioService() {
 
                                 ))}
                             </swiper-container>
+
+
                         </div>
                     </div>
                 ))}

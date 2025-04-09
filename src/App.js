@@ -3,7 +3,6 @@ import './App.css';
 import './css/satoshi.css';
 
 
-
 function App() {
   return (
     <>
