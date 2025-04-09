@@ -4,10 +4,18 @@ import Slider from "react-slick";
 import { useEffect, useRef } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
+
+
+   
 
 export default function PortfolioService() {
     const sliderRef = useRef(null);
+    const { t, i18n } = useTranslation();
+    const switchLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+    };
 
     const settings = {
         dots: false,

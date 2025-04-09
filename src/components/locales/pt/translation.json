@@ -1,0 +1,14 @@
+{
+    "navbar": {
+      "logoAlt": "Logo",
+      "menu": {
+        "about": "Sobre Nós",
+        "services": "Nossos Serviços",
+        "portfolio": "Portfólio",
+        "contact": "Contactos"
+      },
+      "language": "PT",
+      "searchAlt": "Pesquisar"
+    }
+  }
+  
