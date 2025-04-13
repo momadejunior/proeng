@@ -13,9 +13,7 @@ import { useTranslation } from 'react-i18next';
 export default function PortfolioService() {
     const sliderRef = useRef(null);
     const { t, i18n } = useTranslation();
-    const switchLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    };
+
 
     const settings = {
         dots: false,
@@ -140,63 +138,64 @@ export default function PortfolioService() {
         <>
 
 
-            <div className="portfolio-container">
-                <section className="slider-section">
-                    <Slider ref={sliderRef} {...settings}>
-                        <div className="banner">
-                            <img src="./portfolio-01.jpg" alt="Slide 1" />
-                        </div>
-                        <div className="banner">
-                            <img src="./portfolio-02.jpg" alt="Slide 2" />
-                        </div>
-                    </Slider>
+<div className="portfolio-container">
+            <section className="slider-section">
+                <Slider ref={sliderRef} {...settings}>
+                    <div className="banner">
+                        <img src="./portfolio-01.jpg" alt="Slide 1" />
+                    </div>
+                    <div className="banner">
+                        <img src="./portfolio-02.jpg" alt="Slide 2" />
+                    </div>
+                </Slider>
 
-                    {/* Custom Arrows */}
-                    <div className="arrows">
-                        <div
-                            className="arrow left"
-                            onClick={() => sliderRef.current?.slickPrev()}
-                        >
-                            <img src="left.svg" alt="left-arrow" className="arrows-icons" />
+                {/* Custom Arrows */}
+                <div className="arrows">
+                    <div
+                        className="arrow left"
+                        onClick={() => sliderRef.current?.slickPrev()}
+                    >
+                        <img src="left.svg" alt="left-arrow" className="arrows-icons" />
+                    </div>
+                    <div
+                        className="arrow right"
+                        onClick={() => sliderRef.current?.slickNext()}
+                    >
+                        <img src="right.svg" alt="right-arrow" className="arrows-icons" />
+                    </div>
+                </div>
+            </section>
+
+            {/* Projects List */}
+            {projects.map((item, index) => (
+                <div key={index} className="page headline">
+                    <div className="portfolio-page">
+                        <div data-aos="fade-left">
+                            <p className="tag-project">{t(item.category)}</p>
+                            <h2>{t(item.name)}</h2>
                         </div>
-                        <div
-                            className="arrow right"
-                            onClick={() => sliderRef.current?.slickNext()}
-                        >
-                            <img src="right.svg" alt="right-arrow" className="arrows-icons" />
+
+                        <div className="small-description" data-aos="fade-right">
+                            <ul className="ul-list-category">
+                                <li>
+                                    <span>{t("Year")}:</span> {t(item.year)}
+                                </li>
+                                <li>
+                                    <span>{t("Client")}:</span> {t(item.client)}
+                                </li>
+                                <li>
+                                    <span>{t("Location")}:</span> {t(item.location)}
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </section>
 
-                {/* Projects List */}
-                {projects.map((item, index) => (
-                    <div key={index} className="page headline">
-                        <div className="portfolio-page">
-                            <div data-aos="fade-left">
-                                <p className="tag-project">{item.category}</p>
-                                <h2>{item.name}</h2>
-                            </div>
+                    <hr className="hr" />
 
-                            <div className="small-description" data-aos="fade-right">
-                                <ul className="ul-list-category">
-                                    <li>
-                                        <span>Ano:</span> {item.year}
-                                    </li>
-                                    <li>
-                                        <span>Cliente:</span> {item.client}
-                                    </li>
-                                    <li>
-                                        <span>Localização:</span> {item.location}
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div className="main description-project" data-aos="fade-up">
+                        <p className="col-description">{t(item.description)}</p>
+                    </div>
 
-                        <hr className="hr" />
-
-                        <div className="main description-project" data-aos="fade-up">
-                            <p className="col-description">{item.description}</p>
-                        </div>
 
                         <hr className="hr" />
 

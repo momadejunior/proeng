@@ -1,0 +1,87 @@
+{
+    "projects": [
+        {
+            "name": "Tank 1264 & Slope Tanks",
+            "year": "2023",
+            "client": "Friedlander",
+            "location": "Porto da Matola",
+            "category": "Engineering",
+            "description": "The Tank 1264 project began in September 2023 and involved the rehabilitation of a fuel tank. Proeng, subcontracted by Friedlander, was responsible for the blasting and painting work. The process included sandblasting to remove the old coating, followed by the application of new coatings, from the primer layer, intermediate, to the final one. This work was done both on the interior and exterior of the tank, including its base.",
+            "smallDescription": "Proeng rehabilitated the 'Slope Tanks'. The work included sandblasting, painting, and the application of new coatings, maintaining the same quality standards and attention to detail.",
+            "images": ["portfolio-01.jpg", "portfolio-01.jpg"]
+        },
+        {
+            "name": "Restaurant in Marracuene",
+            "year": "2024",
+            "client": "Alex (private)",
+            "location": "Marracuene",
+            "category": "Engineering",
+            "description": "This project involved the construction of a two-story restaurant, with a metallic structure on top. Proeng was responsible for the manufacturing and assembly of the metallic structure, including pillars, beams, mezzanine, and sheet metal, delivering a solid and aesthetically pleasing building.",
+            "images": ["proeng-projects-03.jpg", "proeng-projects-03.jpg"]
+        },
+        {
+            "name": "Removal of Metallic Structures in Baixa",
+            "year": "2024",
+            "client": "JcDecaux Mozambique",
+            "location": "Avenida 25 de Setembro, Maputo",
+            "category": "Engineering",
+            "description": "In 2024, Proeng participated in the removal of two large metallic structures located on Avenida 25 de Setembro, in downtown Maputo. This project involved meticulous logistics and coordination, ensuring efficient and safe execution.",
+            "smallDescription": "",
+            "images": ["proeng-projects-02.jpg", "proeng-projects-02.jpg"]
+        },
+        {
+            "name": "Outdoor Assembly",
+            "year": "2023",
+            "client": "JcDecaux Mozambique",
+            "location": "Maputo",
+            "category": "Engineering",
+            "description": "In 2023, Proeng was responsible for the assembly of an outdoor advertisement structure in front of the Ministry of Defense. The work included assembling the structure and surface treatment, blasting, and painting, ensuring a flawless finish.",
+            "images": ["proeng-projects-08.jpg", "proeng-projects-08.jpg"]
+        },
+        {
+            "name": "Construction of Two Metallic Structures",
+            "year": "2022-2023",
+            "client": "Ministério Divina Esperança",
+            "location": "Chiango",
+            "category": "Engineering",
+            "description": "This project involved the construction of two large metallic structures to serve as places of worship. Proeng was responsible for the manufacturing and assembly of the metallic structure, including pillars, beams, and sheet metal, delivering a solid and aesthetically pleasing building.",
+            "images": ["projects-01.jpg", "projects-01.jpg"]
+        },
+        {
+            "name": "Manufacture of Custom Parts",
+            "year": "2024",
+            "client": "Televisa",
+            "location": "FPLM, Maputo",
+            "category": "Engineering",
+            "description": "In 2024, Proeng participated in the manufacturing of custom parts, which underwent galvanization. This project involved meticulous logistics and coordination, ensuring efficient and safe execution.",
+            "images": ["proeng-projects-02.jpg", "proeng-projects-02.jpg"]
+        },
+        {
+            "name": "Sandblasting and Painting of Metallic Structure",
+            "year": "2022",
+            "client": "Escopil",
+            "location": "",
+            "category": "Engineering",
+            "description": "In this project, Proeng carried out sandblasting and painting of a metallic structure, ensuring the removal of corrosion and the application of a new protective coating. The service was completed within the stipulated time frame, ensuring the quality and durability of the structure.",
+            "images": ["proeng-projects-04.jpg", "proeng-projects-04.jpg"]
+        },
+        {
+            "name": "Tank Rehabilitation in Beira",
+            "year": "2023-2024",
+            "client": "Friedlander",
+            "location": "Beira Terminal",
+            "category": "Engineering",
+            "description": "We carried out the rehabilitation of tanks in Beira, with Proeng responsible for the blasting and painting work, both inside and outside the tanks.",
+            "images": ["proeng-projects-06.jpg", "proeng-projects-06.jpg"]
+        },
+        {
+            "name": "Repair and Painting of Industrial Generators",
+            "year": "2022",
+            "client": "Coca-Cola / Friedlander",
+            "location": "",
+            "category": "Engineering",
+            "description": "Proeng was contracted to repair and paint three industrial generators, focusing on surface treatment. The work included cleaning and preparing the surfaces, ensuring an even and protective paint layer to increase the longevity of the generators. The project was successfully completed for Coca-Cola and Friedlander.",
+            "images": ["proeng-projects-01.jpg", "proeng-projects-01.jpg"]
+        }
+    ]
+}

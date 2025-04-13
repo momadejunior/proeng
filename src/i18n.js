@@ -2,34 +2,24 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-const resources = {
-  en: {
-    translation: {
-      "Sobre Nós": "About Us",
-      "Nossos Serviços": "Our Services",
-      "Portfolio": "Portfolio",
-      "Contactos": "Contact",
-      "Ano": "Year",
-    "Cliente": "Client",
-    "Localização": "Location",
-    "Engenharia": "Engineering"
-
-    }
-  },
-  pt: {
-    translation: {
-      "Sobre Nós": "Sobre Nós",
-      "Nossos Serviços": "Nossos Serviços",
-      "Portfolio": "Portfólio",
-      "Contactos": "Contactos",
-    }
-  }
-};
+import en from './locales/en/translation.json';
+import pt from './locales/pt/translation.json';
+import ptProjects from './locales/pt/projects.json';
+import enProjects from './locales/en/projects.json';
 
 i18n
   .use(initReactI18next)
   .init({
-    resources,
+    resources: {
+      en: { 
+        translation: en,
+        projects: enProjects,  // Added projects translations for English
+      },
+      pt: { 
+        translation: pt,
+        projects: ptProjects,  // Added projects translations for Portuguese
+      },
+    },
     lng: 'pt', // default language
     fallbackLng: 'pt',
     interpolation: {

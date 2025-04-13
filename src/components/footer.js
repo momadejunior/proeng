@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
+
+    const { t, i18n } = useTranslation();
+    
     return (
         <>
             <hr/>
@@ -9,10 +14,10 @@ export default function Footer() {
                 <div className="info-container">
                 <div className="menu-list">
                     <ul className="nav-footer">
-                        <li><a>Sobre Nós</a></li>
-                        <li><a>Nossos Serviços</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Contactos </a></li>
+                        <li><a>{t("Sobre Nós")}</a></li>
+                        <li><a>{t("Nossos Serviços")}</a></li>
+                        <li><a>{t("Portfolio")}</a></li>
+                        <li><a>{t("Contactos")} </a></li>
                     </ul>
                 </div>
 

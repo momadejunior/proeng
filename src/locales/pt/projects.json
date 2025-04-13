@@ -1,0 +1,87 @@
+{
+    "projects": [
+        {
+            "name": "Tanque 1264 & Tanques de Inclinação",
+            "year": "2023",
+            "client": "Friedlander",
+            "location": "Porto da Matola",
+            "category": "Engenharia",
+            "description": "O projeto Tanque 1264 começou em setembro de 2023 e envolveu a reabilitação de um tanque de combustível. A Proeng, subcontratada pela Friedlander, foi responsável pelos trabalhos de jateamento e pintura. O processo incluiu jateamento para remover o revestimento antigo, seguido pela aplicação de novos revestimentos, desde a camada de primer, intermediária até a final. Esse trabalho foi realizado tanto no interior quanto no exterior do tanque, incluindo sua base.",
+            "smallDescription": "A Proeng reabilitou os 'Tanques de Inclinação'. O trabalho incluiu jateamento, pintura e aplicação de novos revestimentos, mantendo os mesmos padrões de qualidade e atenção aos detalhes.",
+            "images": ["portfolio-01.jpg", "portfolio-01.jpg"]
+        },
+        {
+            "name": "Restaurante em Marracuene",
+            "year": "2024",
+            "client": "Alex (privado)",
+            "location": "Marracuene",
+            "category": "Engenharia",
+            "description": "Este projeto envolveu a construção de um restaurante de dois andares, com uma estrutura metálica no topo. A Proeng foi responsável pela fabricação e montagem da estrutura metálica, incluindo pilares, vigas, mezzanino e chapas metálicas, entregando um edifício sólido e esteticamente agradável.",
+            "images": ["proeng-projects-03.jpg", "proeng-projects-03.jpg"]
+        },
+        {
+            "name": "Remoção de Estruturas Metálicas na Baixa",
+            "year": "2024",
+            "client": "JcDecaux Moçambique",
+            "location": "Avenida 25 de Setembro, Maputo",
+            "category": "Engenharia",
+            "description": "Em 2024, a Proeng participou na remoção de duas grandes estruturas metálicas localizadas na Avenida 25 de Setembro, no centro de Maputo. Este projeto envolveu logística e coordenação meticulosa, garantindo uma execução eficiente e segura.",
+            "smallDescription": "",
+            "images": ["proeng-projects-02.jpg", "proeng-projects-02.jpg"]
+        },
+        {
+            "name": "Montagem Externa",
+            "year": "2023",
+            "client": "JcDecaux Moçambique",
+            "location": "Maputo",
+            "category": "Engenharia",
+            "description": "Em 2023, a Proeng foi responsável pela montagem de uma estrutura de publicidade externa em frente ao Ministério da Defesa. O trabalho incluiu a montagem da estrutura e o tratamento de superfície, jateamento e pintura, garantindo um acabamento impecável.",
+            "images": ["proeng-projects-08.jpg", "proeng-projects-08.jpg"]
+        },
+        {
+            "name": "Construção de Duas Estruturas Metálicas",
+            "year": "2022-2023",
+            "client": "Ministério Divina Esperança",
+            "location": "Chiango",
+            "category": "Engenharia",
+            "description": "Este projeto envolveu a construção de duas grandes estruturas metálicas para servir como locais de culto. A Proeng foi responsável pela fabricação e montagem da estrutura metálica, incluindo pilares, vigas e chapas metálicas, entregando um edifício sólido e esteticamente agradável.",
+            "images": ["projects-01.jpg", "projects-01.jpg"]
+        },
+        {
+            "name": "Fabricação de Peças Sob Medida",
+            "year": "2024",
+            "client": "Televisa",
+            "location": "FPLM, Maputo",
+            "category": "Engenharia",
+            "description": "Em 2024, a Proeng participou na fabricação de peças sob medida, que passaram por galvanização. Este projeto envolveu logística e coordenação meticulosa, garantindo execução eficiente e segura.",
+            "images": ["proeng-projects-02.jpg", "proeng-projects-02.jpg"]
+        },
+        {
+            "name": "Jateamento e Pintura de Estrutura Metálica",
+            "year": "2022",
+            "client": "Escopil",
+            "location": "",
+            "category": "Engenharia",
+            "description": "Neste projeto, a Proeng realizou o jateamento e pintura de uma estrutura metálica, garantindo a remoção da corrosão e a aplicação de um novo revestimento protetor. O serviço foi concluído dentro do prazo estipulado, garantindo a qualidade e durabilidade da estrutura.",
+            "images": ["proeng-projects-04.jpg", "proeng-projects-04.jpg"]
+        },
+        {
+            "name": "Reabilitação de Tanques em Beira",
+            "year": "2023-2024",
+            "client": "Friedlander",
+            "location": "Beira Terminal",
+            "category": "Engenharia",
+            "description": "Realizamos a reabilitação de tanques na Beira, com a Proeng responsável pelos trabalhos de jateamento e pintura, tanto no interior quanto no exterior dos tanques.",
+            "images": ["proeng-projects-06.jpg", "proeng-projects-06.jpg"]
+        },
+        {
+            "name": "Reparo e Pintura de Geradores Industriais",
+            "year": "2022",
+            "client": "Coca-Cola / Friedlander",
+            "location": "",
+            "category": "Engenharia",
+            "description": "A Proeng foi contratada para reparar e pintar três geradores industriais, com foco no tratamento de superfícies. O trabalho incluiu a limpeza e preparação das superfícies, garantindo uma camada de pintura uniforme e protetora para aumentar a longevidade dos geradores. O projeto foi concluído com sucesso para a Coca-Cola e Friedlander.",
+            "images": ["proeng-projects-01.jpg", "proeng-projects-01.jpg"]
+        }
+    ]
+}
