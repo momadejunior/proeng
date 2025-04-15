@@ -3,13 +3,17 @@
   "Nossos Serviços": "Our Services",
   "Portfolio": "Portfolio",
   "Contactos": "Contact",
+
   "Ano": "Year",
   "Cliente": "Client",
   "Localização": "Location",
-  "Engenharia": "Engineering",
-
+ 
 
   
+"about": "About Us",
+  "services": "Our Services",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
 
     "about_us": "ABOUT US",
     "team_experience": "Our technical team has years of experience in engineering areas.",
@@ -22,13 +26,39 @@
     "location": "Our Location",
     "employees": "COARK Employees",
 
-  "services": "SERVICES",
   "project": "PROJECT",
   "project_description": "Development and planning of mechanical and boiler projects, structural dimensioning and calculation.",
   "maintenance": "MAINTENANCE",
   "maintenance_description": "Maintenance of industrial machines, metal structures, boiler projects, hydraulic and pneumatic equipment.",
   "manufacturing": "MANUFACTURING",
-  "manufacturing_description": "Metal constructions, mechanical parts and assemblies."
+  "manufacturing_description": "Metal constructions, mechanical parts and assemblies.",
+
+  
+    "contactTitle": "CONTACT US",
+    "writeUs": "WRITE TO US",
+    "name": "Name",
+    "email": "Email",
+    "message": "Your message",
+    "sendMessage": "Send Message",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "There was an error sending your message. Please try again.",
+    "address": "Av. Info to be inserted",
+    "cityCountry": "Maputo - Mozambique",
+
+    "aboutUs": "About Us",
+  "ourServices": "Our Services",
+  "contacts": "Contacts",
+
+  "servicesTitle": "Services",
+  "projectManagementTitle": "Project Management",
+  "projectManagementText": "We handle your projects from start to finish with efficiency and professionalism.",
+  "maintenanceTitle": "Maintenance",
+  "maintenanceText": "Our team ensures the long-term reliability and upkeep of your systems.",
+  "manufacturingTitle": "Manufacturing",
+  "manufacturingText": "We deliver high-quality manufacturing solutions tailored to your needs.",
+  "servicesImageAlt": "Illustration of our services"
+  
+  
 
 
 

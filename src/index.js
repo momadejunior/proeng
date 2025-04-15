@@ -5,15 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import './i18n'; // <<<<<< Add this line
+import { TranslationProvider } from "./context/TranslationContext";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <TranslationProvider>
     <Navbar/>
     <App />
     <Footer/>
+    </TranslationProvider>
   </React.StrictMode>
 );
 

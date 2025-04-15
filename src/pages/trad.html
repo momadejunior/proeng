@@ -1,0 +1,28 @@
+<script>
+  async function translate() {
+    const url = 'https://rapid-translate-multi-traduction.p.rapidapi.com/t';
+    const options = {
+      method: 'POST',
+      headers: {
+        'x-rapidapi-key': '66f7346317msh23e7f5b1f7c11e5p188fa1jsn3222358fff93',
+        'x-rapidapi-host': 'rapid-translate-multi-traduction.p.rapidapi.com',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: 'en',
+        to: 'ar',
+        q: 'Hello ! Rapid Translate Multi Traduction'
+      })
+    };
+
+    try {
+      const response = await fetch(url, options);
+      const result = await response.json();
+      console.log(result);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  translate(); // executa a função
+</script>

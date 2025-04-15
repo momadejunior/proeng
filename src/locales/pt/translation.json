@@ -3,35 +3,62 @@
   "Nossos Serviços": "Nossos Serviços",
   "Portfolio": "Portfólio",
   "Contactos": "Contactos",
+
   "Ano": "Ano",
   "Cliente": "Cliente",
   "Localização": "Localização",
-  "Engenharia": "Engenharia",
+ 
+
   "Tank 1264 & Slope Tanks": "Tanque 1264 & Tanques de Inclinação",
   "Restaurant in Marracuene": "Restaurante em Marracuene",
+  "about_us": "SOBRE-NÓS",
+  "team_experience": "A nossa equipa técnica tem anos de experiência nas áreas de engenharia.",
+  "mission_title": "MISSÃO",
+  "mission_description": "Ser referência no mercado nacional e internacional com foco principal e sustentado, numa perspectiva a longo prazo, através de colaboradores competentes e motivados, garantindo a plena satisfação das necessidades de clientes exigentes.",
+  "vision_title": "VISÃO",
+  "vision_description": "Assumir o compromisso com a ética e transparência na prestação dos nossos serviços e produtos empregados, garantindo a qualidade e satisfação dos nossos clientes, buscando sempre uma melhoria contínua no processo.",
+  "years_of_experience": "Anos de Experiência",
+  "projects_done": "Projectos Realizados",
+  "location": "Nossa Localização",
+  "employees": "Colaboradores da COARK",
 
+  "about": "Sobre Nós",
+  "services": "Nossos Serviços",
+  "portfolio": "Portfólio",
+  "contact": "Contactos",
 
-    "about_us": "SOBRE-NÓS",
-    "team_experience": "A nossa equipa técnica tem anos de experiência nas áreas de engenharia.",
-    "mission_title": "MISSÃO",
-    "mission_description": "Ser referência no mercado nacional e internacional com foco principal e sustentado, numa perspectiva a longo prazo, através de colaboradores competentes e motivados, garantindo a plena satisfação das necessidades de clientes exigentes.",
-    "vision_title": "VISÃO",
-    "vision_description": "Assumir o compromisso com a ética e transparência na prestação dos nossos serviços e produtos empregados, garantindo a qualidade e satisfação dos nossos clientes, buscando sempre uma melhoria contínua no processo.",
-    "years_of_experience": "Anos de Experiência",
-    "projects_done": "Projectos Realizados",
-    "location": "Nossa Localização",
-    "employees": "Colaboradores da COARK",
-  
-
-  "services": "NOSSOS SERVIÇOS",
   "project": "PROJECTO",
   "project_description": "Elaboração e planificação de projectos mecânicos e caldeiraria, dimensionamento e cálculo estrutural.",
   "maintenance": "MANUTENÇÃO",
   "maintenance_description": "Manutenção de máquinas industriais, estruturas metálicas, caldeiraria, equipamentos hidráulicos e pneumáticos.",
   "manufacturing": "FABRICAÇÃO",
-  "manufacturing_description": "Construções metálicas, peças e conjuntos mecânicos."
-  
-  
+  "manufacturing_description": "Construções metálicas, peças e conjuntos mecânicos.",
+
+
+  "contactTitle": "CONTACTA-NOS",
+  "writeUs": "ESCREVE-NOS",
+  "name": "Nome",
+  "email": "E-mail",
+  "message": "Sua mensagem",
+  "sendMessage": "Enviar Mensagem",
+  "successMessage": "Mensagem enviada com sucesso!",
+  "errorMessage": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente.",
+  "address": "Av. Informação por inserir",
+  "cityCountry": "Maputo - Moçambique",
+
+  "aboutUs": "Sobre Nós",
+  "ourServices": "Nossos Serviços",
+  "contacts": "Contactos",
+
+  "servicesTitle": "Serviços",
+  "projectManagementTitle": "Gestão de Projetos",
+  "projectManagementText": "Gerimos os seus projetos do início ao fim com eficiência e profissionalismo.",
+  "maintenanceTitle": "Manutenção",
+  "maintenanceText": "A nossa equipa assegura a fiabilidade e manutenção a longo prazo dos seus sistemas.",
+  "manufacturingTitle": "Fabrico",
+  "manufacturingText": "Entregamos soluções de fabrico de alta qualidade adaptadas às suas necessidades.",
+  "servicesImageAlt": "Ilustração dos nossos serviços"
+
+
+
 }
-
-
